@@ -3,15 +3,16 @@ package www.cibertec;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    // 1. Metodo
+    public static double calcularPromedio(double n1, double n2) {
+        return (n1 + n2) / 2.0;
+    }
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+    public static void main(String[] args) {
+        // 2. Variables Fijas
+        String alumno = "Erick Alcantara";
+        double promedioFinal = calcularPromedio(16.0, 11.0);
+
+        System.out.println("El promedio final de " + alumno + " es: " + promedioFinal);
     }
 }

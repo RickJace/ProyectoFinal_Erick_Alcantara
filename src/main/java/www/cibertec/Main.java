@@ -14,7 +14,7 @@ public class Main {
         int faltas = 3;
         boolean aprobo;
 
-        //   Método Calcular Promedio
+        //   Metodo Calcular Promedio
         double promedio = calcularPromedio(nota1, nota2, nota3);
 
         //  Estructura condicional y multiple
@@ -59,7 +59,7 @@ public class Main {
         System.out.println();
     }
 
-    //  Método - Operación básica con retorno
+    //  Metodo - Operacion basica con retorno
     public static double calcularPromedio(double n1, double n2, double n3) {
         return (n1 + n2 + n3) / 3.0;
     }
